@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <form>
+        <div class = "container">
+            <h1> Sign-Up </h1>
+                <label for = "Name"> Name:</label><br>
+                <input type = "text" id = "Name" name = "Name" required><br><br><br>
+
+                <label for = "userName"> Preferred  Username:</label><br>
+                <input type = "text" id = "userName" name = "userName" required><br><br><br>
+
+                <label for = "password"> Password: </label><br>
+                <input type = "password" id = "pWord" name = "password" required><br><br><br>
+
+                <label for = "confirm_Password"> Confirm Password: </label><br>
+                <input type = "password" id = "confirm_Password" name = "confirm_Password" required><br><br><br>
+
+                <label for = "email"> Email: </label><br>
+                <input type = "email" id = "email" name = "email" required><br><br><br>
+
+                <label for = "address"> Address: </label><br>
+                <input type = "text" id = "address" name = "address" required><br><br><br>
+
+                <label for = "uInterests"> Your Interests: </label><br>
+                <textarea id = "uInterests" name = "uInterests" rows = "4" cols = "50" required> </textarea><br><br><br>
+
+                <input type = "reset" value = "Reset">
+                <input type = "submit" value = "Submit">
+            </div>
+    </form>
+</body>
+<style>
+    .container{
+        width: 600px;
+        margin: 40px auto;
+        padding: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h1{
+        text-align: center;
+    }
+    label{
+        font-weight: bolder;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+        background-color:#429ef5;
+        color:#ffff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+        font-family: 'Courier New', Courier, monospace;
+        background-color:#0328fc;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 4px;
+    }
+</style>
+</html>
